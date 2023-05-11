@@ -104,6 +104,10 @@ body{
     padding: 10px 0;
  }
 
+ .social:hover{
+    filter: invert(20%) sepia(100%) saturate(3196%) hue-rotate(356deg) brightness(107%) contrast(107%);
+ }
+
  /* Design section Hero*/ 
  #Hero{
     background-image: url(../Illustrations/Bathome1.png);
@@ -112,6 +116,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000000;
+ }
+
+ .Jaune:hover{
+    filter: invert(20%) sepia(100%) saturate(3196%) hue-rotate(356deg) brightness(107%) contrast(107%);
  }
 
  .content{
