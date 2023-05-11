@@ -52,7 +52,7 @@ body{
  }
 
  ul li{
-    list-style: none;
+    list-style-type: none;
  }
 
  nav ul a{
@@ -75,17 +75,31 @@ body{
     margin-left: 102px;
 }
 
+.right-border{
+    border: solid 1px #bcbbbd4b;
+    height: 100%;
+    position: fixed;
+    left: 102px;
+}
+
+.left-border{
+    border: solid 1px #bcbbbd4b;
+    height: 100%;
+    position: fixed;
+    right: 102px;
+}
+
 /*Design Réseaux sociaux*/
- .scroll{
-    display:flex;
+.Réseaux-sociaux{
+    display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
-    right: 70px;
+    right: 50px;
     top: 400px;
  }
 
- .scroll .social{
+.social{
     margin-top: 20px;
     padding: 10px 0;
  }
@@ -94,6 +108,7 @@ body{
  #Hero{
     background-image: url(../Illustrations/Bathome1.png);
     height: 900px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000000;
@@ -105,28 +120,32 @@ body{
     justify-content: center;
     width: 50%;
     margin: 0 auto;
-    padding-top: 200px;
+    padding-top: 230px;
     text-align: center;
  }
 
 .titre{
-    margin: 40px 0;
+    margin: 50px;
     font-weight: bold;
+    font-size: 28px;
 }
 
 .texte{
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 100;
-    width: 120%;
+    width: 100%;
+    font-family: "Space Grotesk";
 }
 
 .btn{
     text-decoration: none;
     color: var(--white-color);
-    font-size: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
     font-weight: 400;
     font-family: "Rajdhani";
-    padding: 20px 40px;
+    padding: 20px 30px;
+    margin-right: 20px;
     background: linear-gradient(130deg,#ffffff60,#89000931);
     box-shadow: #000000 5px 5px 60px;
 }
@@ -139,6 +158,35 @@ body{
 
 /*Design section 2 3 4*/
 /* Design Batman personnage*/
+#batman-cinema{
+    margin-top: 120px;
+}
+
+#némésis{
+    margin-top: 120px;
+}
+
+#némésis .chauve-souris img{
+    position: absolute;
+    left: 250px;
+    width: 140px;
+    top: 1790px;
+}
+
+#Alliés{
+    margin-top: 160px;
+}
+
+#Alliés .batman img{
+    position: absolute;
+    right: 0;
+    top: 2500px;
+}
+
+#JL{
+    margin-top: 120px;
+}
+
 .batman-personnage{
     display: flex;
     justify-content: space-between;
@@ -198,7 +246,7 @@ body{
 
 .slider-content .trailer{
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
     padding-top: 10px;
     padding-right: 10px;
 }
@@ -354,6 +402,8 @@ footer{
 
 .footer-text{
     text-align: center;
+    font-size: 12px;
+    color: #c4c4c4e1;
 }
 
 .footer-logo{
