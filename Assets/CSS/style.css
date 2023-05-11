@@ -140,17 +140,18 @@ body{
 
 .texte{
     font-size: 22px;
-    font-weight: 100;
-    width: 120%;
+    font-weight: 500;
+    color: #ffffffa6;
+    width: 120%; 
     font-family: "Space Grotesk";
 }
 
 .btn{
     text-decoration: none;
-    color: var(--white-color);
+    color: #ffffff;
     font-size: 18px;
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: "Rajdhani";
     padding: 20px 30px;
     margin-right: 20px;
