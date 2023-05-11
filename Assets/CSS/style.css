@@ -197,6 +197,7 @@ body{
 
 .JL-image{
     border: none;
+    position : relative;
 }
 
 .batman-personnage{
@@ -281,7 +282,6 @@ body{
     background: linear-gradient(140deg,#eddebf67,#021925da);
     padding: 70px 0;
     margin-top: 120px;
-    border: none;
 }
 
 .form{
