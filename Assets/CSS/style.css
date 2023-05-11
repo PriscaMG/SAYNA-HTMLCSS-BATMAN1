@@ -1,3 +1,15 @@
+@font-face{
+   font-family: "Rajdhani";
+   scr: url(../Police/Rajdhani/Rajdhani-Bold.ttf);
+   src: url(../Police/Rajdhani/Rajdhani-Medium.ttf);
+   src: url(../Police/Rajdhani/Rajdhani-Regular.ttf);
+   src: url(../Police/Rajdhani/Rajdhani-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: "Space Grotesk";
+    src: url(../Police/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+}
 
 *{
     margin: 0;
@@ -51,6 +63,14 @@ body{
     padding: 50px 0;
  }
 
+.Jaune:hover{
+    filter: invert(20%) sepia(100%) saturate(3196%) hue-rotate(356deg) brightness(107%) contrast(107%);
+ }
+
+.Jaune{
+    margin-left: 40px;
+}
+
  ul li{
     list-style-type: none;
  }
@@ -60,6 +80,7 @@ body{
     font-family: "Rajdhani";
     font-size: 32px;
     font-weight: 600;
+    margin-right: 40px;
  }
 
  nav ul a:hover{
@@ -118,10 +139,6 @@ body{
     background-color: #000000;
  }
 
- .Jaune:hover{
-    filter: invert(20%) sepia(100%) saturate(3196%) hue-rotate(356deg) brightness(107%) contrast(107%);
- }
-
  .content{
     display: flex;
     flex-direction: column;
@@ -133,9 +150,11 @@ body{
  }
 
 .titre{
-    margin: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
     font-weight: bold;
     font-size: 28px;
+    font-family: "Space Grotesk";
 }
 
 .texte{
@@ -177,9 +196,9 @@ body{
 
 #némésis .chauve-souris img{
     position: absolute;
-    left: 230px;
+    left: 210px;
     width: 140px;
-    top: 1850px;
+    top: 1860px;
 }
 
 #Alliés{
@@ -210,6 +229,7 @@ body{
     margin-top: 40px;
     font-size: 36px;
     font-weight: bold;
+    font-family: "Rajdhani";
 }
 
 .description{
