@@ -58,8 +58,8 @@ body{
  nav ul a{
     color: var(--white-color);
     font-family: "Rajdhani";
-    font-size: 36px;
-    font-weight: 500;
+    font-size: 32px;
+    font-weight: 600;
  }
 
  nav ul a:hover{
@@ -131,9 +131,9 @@ body{
 }
 
 .texte{
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 100;
-    width: 100%;
+    width: 120%;
     font-family: "Space Grotesk";
 }
 
@@ -168,23 +168,27 @@ body{
 
 #némésis .chauve-souris img{
     position: absolute;
-    left: 250px;
+    left: 230px;
     width: 140px;
-    top: 1790px;
+    top: 1850px;
 }
 
 #Alliés{
-    margin-top: 160px;
+    margin-top: 165px;
 }
 
 #Alliés .batman img{
     position: absolute;
     right: 0;
-    top: 2500px;
+    top: 2550px;
 }
 
 #JL{
     margin-top: 120px;
+}
+
+.JL-image{
+    border: none;
 }
 
 .batman-personnage{
@@ -202,13 +206,17 @@ body{
     margin-top: 20px;
     margin-bottom: 40px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: "Space Grotesk";
+    font-weight: 300;
     width: 80%;
 }
 
 .Information-personnage{
     margin-top: 10px;
     text-align: center;
+    font-size: 18px;
+    font-family: "Rajdhani";
 }
 
 /*Design multimedia*/
@@ -265,6 +273,7 @@ body{
     background: linear-gradient(140deg,#eddebf67,#021925da);
     padding: 70px 0;
     margin-top: 120px;
+    border: none;
 }
 
 .form{
@@ -280,6 +289,8 @@ body{
     padding-bottom: 50px;
     margin-top: 2px;
     text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 .title{
@@ -361,6 +372,7 @@ textarea{
     margin: 30px 180px;
     padding: 20px 0;
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 4px;
     color: #ffffff;
     background: linear-gradient(130deg,#ffffff60,#8900098e);
@@ -386,12 +398,18 @@ textarea{
     font-size: 15px;
     color: #c4c4c4ce;
     padding: 15px 0;
-    width: 45%;
-    margin: 30px auto;
+    width: 58%;
+    margin: 10px auto;
 }
 
 .guillemet-close{
     float: right;
+}
+
+.circle{
+    color :  #19587d;
+    font-size: 8px;
+    letter-spacing: 4px;
 }
 
 /*Design footer*/
