@@ -1,0 +1,379 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --yellow-color: #ffff00;
+    --yellow-light: #f8f184;
+    --blue-color: #19587d;
+    --red-color: #b11313;
+    --black-light: #0d0e09;
+    --yellow-color: #ffff00;
+    --white-light: #c4c4c4;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --gradient-white: #eddebf;
+    --gradient-red: #89000952;
+}
+
+h1{
+    font-family: "Rajdhani";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+button{
+    font-family: "Rajdhani";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Space Grotesk";
+    font-weight: 300;
+}
+
+/* Design Navigateur*/ 
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+ }
+
+ ul li{
+    list-style: none;
+ }
+
+ nav ul a{
+    color: var(--white-color);
+    font-family: "Rajdhani";
+    font-size: 36px;
+    font-weight: 500;
+ }
+
+ nav ul a:hover{
+    color: var(--yellow-color);
+ }
+
+.up-border{
+    border-top: #bcbbbd4b 3px solid;
+    position: relative;
+    justify-content: center;
+    top: 180px;
+    width: 85%;
+    margin-left: 102px;
+}
+
+/*Design Réseaux sociaux*/
+ .scroll{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 70px;
+    top: 400px;
+ }
+
+ .scroll .social{
+    margin-top: 20px;
+    padding: 10px 0;
+ }
+
+ /* Design section Hero*/ 
+ #Hero{
+    background-image: url(../Illustrations/Bathome1.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+ }
+
+ .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 200px;
+    text-align: center;
+ }
+
+.titre{
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+.texte{
+    font-size: 20px;
+    font-weight: 100;
+    width: 120%;
+}
+
+.btn{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Rajdhani";
+    padding: 20px 40px;
+    background: linear-gradient(130deg,#ffffff60,#89000931);
+    box-shadow: #000000 5px 5px 60px;
+}
+
+.flèche{
+    display:block;
+    margin: 0 auto;
+    margin-top: 350px;
+}
+
+/*Design section 2 3 4*/
+/* Design Batman personnage*/
+.batman-personnage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Title{
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.description{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: justify;
+    font-size: 18px;
+    width: 80%;
+}
+
+.Information-personnage{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*Design multimedia*/
+#multimedia button{
+    position: relative;
+    top: 170px;
+    background: none;
+    border: none;
+}
+
+#multimedia button.right{
+    right: -90%;
+}
+
+.slider-multimedia{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    margin-bottom: 100px;
+}
+
+.slide.image{
+    width: 100%;
+}
+
+.slider-content{
+    width: 40%;
+    text-align: left;
+    background: linear-gradient(140deg,#eddebf67,#021925da);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.slider-content .trailer{
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.slider-content .IMDB{
+    padding-top: 10px;
+}
+
+.number{
+    color: #ffff00;
+    font-weight: bold;
+}
+
+/*Design FORMULAIRE*/
+#Formulaire{
+    background: linear-gradient(140deg,#eddebf67,#021925da);
+    padding: 70px 0;
+    margin-top: 120px;
+}
+
+.form{
+    padding-left: 90px;
+}
+
+#Formulaire .contact{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact h1{
+    padding-bottom: 50px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.title{
+    display: block;
+    margin: 25px 0;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Rajdhani";
+}
+
+#Formulaire .contact input[type="email"], textarea{
+    display: block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    width: 90%;
+    border-bottom: 2px solid #c4c4c481;
+}
+
+textarea{
+    height: 25px;
+}
+
+.contact *::placeholder{
+    font-size: 16px;
+}
+
+.fréquence{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    border-bottom: 2px solid #c4c4c481; 
+    width: 90%; 
+    font-size: 15px;
+    color: #c4c4c4ce;
+}
+
+#Formulaire .contact .icon img{
+    transform: rotate(90deg);
+    width: 20px;
+}
+
+#Formulaire .contact .news{
+    margin: 15px 0;
+    border-bottom: 2px solid #c4c4c481;   
+    width: 90%; 
+    font-size: 15px;
+    color: #c4c4c4ce;
+}
+
+.btn-groupe{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 30px 110px;
+}
+
+.btn-groupe input[type="radio"]{
+    opacity: 0;
+}
+
+.btn-groupe label{
+    cursor: pointer;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-image: linear-gradient(100deg,#eddebf67,#19587d88) 1;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form .check{
+    font-size: 15px;
+    color: #c4c4c4ce;
+}
+
+.contact .form input[type="submit"]{
+    width: 40%;
+    margin: 30px 180px;
+    padding: 20px 0;
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    background: linear-gradient(130deg,#ffffff60,#8900098e);
+    border: none;
+}
+
+/*Design citation*/
+#citation{
+    margin: 180px 80px;
+}
+
+.citation-items{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.citation-text{
+    font-size: 20px;
+}
+
+.citation-author{
+    font-size: 15px;
+    color: #c4c4c4ce;
+    padding: 15px 0;
+    width: 45%;
+    margin: 30px auto;
+}
+
+.guillemet-close{
+    float: right;
+}
+
+/*Design footer*/
+footer{
+    margin: 200px;
+    margin-top: 260px;
+}
+
+.footer-text{
+    text-align: center;
+}
+
+.footer-logo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logo-space1{
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.logo-space2{
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.logo-space3{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
