@@ -67,6 +67,10 @@ body{
     filter: invert(20%) sepia(100%) saturate(3196%) hue-rotate(356deg) brightness(107%) contrast(107%);
  }
 
+.Jaune-bat:hover{
+    filter: invert(20%) sepia(100%) saturate(3196%) hue-rotate(356deg) brightness(107%) contrast(107%);
+ }
+
 .Jaune{
     margin-left: 40px;
 }
@@ -178,6 +182,11 @@ body{
     box-shadow: #000000 5px 5px 60px;
 }
 
+.btn:hover {
+    background: linear-gradient(80deg, #c0c0c0c0, #c90000d0);
+    color: #ffffff;
+}
+
 .flèche{
     display:block;
     margin: 0 auto;
@@ -186,6 +195,46 @@ body{
 
 /*Design section 2 3 4*/
 /* Design Batman personnage*/
+.Title, .description, .batman-personnage{
+    opacity: 0;
+    position: relative;
+    left: -100%;
+    animation: fade-in 2s ease-out forwards;
+}
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      left: -50%;
+    }
+    100% {
+      opacity: 1;
+      left: 0;
+    }
+}
+
+.batman-personnage{
+    opacity: 0;
+    position: relative;
+    left: -100%;
+    animation: fade-in 2s ease-out forwards;
+}
+
+.JL-image{
+    opacity: 0;
+    position: relative;
+    left: -100%;
+    animation: fade-in 2s ease-out forwards;
+}
+
+.batman-item{
+    transition: transform 0.3s ease-in-out;
+}
+
+.batman-item:hover{
+    transform: scale(1.1);
+}
+
 #batman-cinema{
     margin-top: 120px;
 }
